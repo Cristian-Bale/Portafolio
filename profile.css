@@ -1,0 +1,41 @@
+.title{
+    display: flex;
+    
+}
+.title__div{
+    margin: 0;
+}
+
+.title__profile{
+    display: flex;
+    border-radius: 50%;
+    overflow: hidden;
+    float: right;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+.title__network{
+    line-height: 2;
+    font-size: large;  
+}
+.title__bio{
+    font-size: 33.5px;
+
+}
+.title__subsection{
+    font-size: large;
+}
+
+.section.title{
+    display: flex;
+    
+}
+
+.title__profile img{
+    justify-content: start;
+    
+
+}
+

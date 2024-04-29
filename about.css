@@ -1,0 +1,16 @@
+.about{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.about__container{
+    flex: 0 0 auto;
+    align-self: flex-start;
+}
+.about__paragraph{
+    font-size: 22px;
+}

@@ -1,0 +1,22 @@
+.academic__title{
+    padding-top: 70px;
+}
+.academic{
+    font-size: 1.5rem;
+}
+.academic__courses__list{
+    list-style: none; 
+    font-size: larger;
+}
+.academic__courses__item__img{
+    display: flex;
+    justify-content: center;
+}
+.academic__courses__item__title{
+    display: flex;
+    justify-content: center;
+}
+.academic__courses__item__subtitle{
+    display: flex;
+    justify-content: center;
+}

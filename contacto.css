@@ -1,0 +1,72 @@
+.formcontato{
+    display: flex;
+    align-items: center;
+    background-color:rgb(115, 154, 155);
+    padding: 50px; 
+} 
+.formcontato__contacto{
+    display: flex;
+    justify-content: center;
+    margin: 50px 10px;
+    flex: 1;
+    
+}
+.formcontato__text{
+    text-align: start;
+    justify-content: start;
+    align-self: start;
+    margin-left: 25px;
+    flex-direction: column;
+    max-width: 200px;
+    line-height: 1.2;
+    
+}
+.formcontato__img{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    margin-right: 20px; 
+    
+}
+
+.formcontato--esquerda{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+.formcontato__title {
+    font-size: 2rem; 
+    text-align: center;
+}
+
+.formcontato__subtext {
+    text-align: center;  
+}
+
+.formcontato__form {
+    max-width: 700px; 
+    margin: 0 auto;
+}
+
+.formcontato__input,
+.formcontato__textarea {
+    width: 100%;
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box;
+}
+
+.formcontato__botao {
+    width: 100%; 
+    padding: 10px; 
+    background-color: #3a413a; 
+    color: white;
+}
+    

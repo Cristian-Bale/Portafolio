@@ -1,0 +1,96 @@
+.experience__section__title{
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+}
+.experience{
+    flex-direction: row;
+    padding: 0.5rem;
+    line-height: 1;
+    
+}
+.experience__info{
+    display: flex;
+    font-size: 25px;    
+    
+
+}
+
+.experience__box{
+    display: flex;
+    line-height: 1.5;
+    overflow: hidden;
+    align-items: center;
+    width: 1000px;
+    height: auto;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px;
+    
+}
+.experience__img{
+    border: 3px solid black;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 60%;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+
+    
+
+}
+.experience__info-container{
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    
+
+ }
+ .experience__text{
+    flex-direction: column;
+    gap: 2;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 20px;
+ }
+
+.experience__title{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+.experience__text{
+    display: flex;
+    justify-content: center;
+    padding-left: 25px;
+}
+
+.experiencia__botao--repo,
+.experience__botao--demo {
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color:rgb(66, 59, 59);
+    color: white; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    
+}
+
+.experiencia__botao--repo:hover,
+.experience__botao--demo:hover {
+    background-color:black;
+
+}
+.experience__repo,
+.experience__demo {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;}
+
+
+
